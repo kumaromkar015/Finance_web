@@ -1,3 +1,4 @@
+/*adding two interger in c language */
 #include <stdio.h>
 int main() {    
 
