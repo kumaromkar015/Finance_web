@@ -31,6 +31,8 @@ header {
     font-size: 24px;
     font-weight: bold;
     font-family: "Roboto Slab", serif;
+    display: flex;
+
 }
 
 .nav-links {
@@ -39,6 +41,9 @@ header {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-style: normal;
+    position: relative;
+    right: 8rem;
+gap: 3rem;
 }
 
 .nav-links li {
@@ -50,12 +55,32 @@ header {
     color: #fff;
     font-size: 18px;
     transition: color 0.3s ease;
+    
+    
 }
 
 .nav-links a:hover {
     color: #f3c623;
 }
-
+/* heading name edit  */
+#Travels{
+    margin-left: 0.8rem;
+    color: #DACC3E;
+    height: 1rem;
+    line-height: 1rem;
+}
+#Durga{
+    color: #7FB7BE;
+    font-style: oblique;
+    height: 1rem;
+    line-height: 1rem;
+}
+#Ma{
+    color: #D3F3EE;
+    font-size: 1.8rem;
+    height: 1rem;
+    line-height: 1rem;
+}
 /* Hamburger menu */
 .hamburger {
     display: none;
