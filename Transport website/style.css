@@ -25,6 +25,9 @@ header {
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
+    height: 25px;
+    line-height: 25px;
+
 }
 
 .logo {
@@ -32,6 +35,8 @@ header {
     font-weight: bold;
     font-family: "Roboto Slab", serif;
     display: flex;
+    position: relative;
+    right: 20px;
 
 }
 
@@ -42,8 +47,8 @@ header {
     font-weight: 400;
     font-style: normal;
     position: relative;
-    right: 8rem;
-gap: 3rem;
+    right: 3rem;
+    gap: 3rem;
 }
 
 .nav-links li {
@@ -62,7 +67,14 @@ gap: 3rem;
 .nav-links a:hover {
     color: #f3c623;
 }
-/* heading name edit  */
+
+.search-box{
+    display: inline-block;
+    padding: 3px;
+    border-radius: 100px;
+}
+
+/* company name edit  */
 #Travels{
     margin-left: 0.8rem;
     color: #DACC3E;
@@ -80,6 +92,32 @@ gap: 3rem;
     font-size: 1.8rem;
     height: 1rem;
     line-height: 1rem;
+}
+.form-inline{
+    display: flex;
+    gap: 4px;
+}
+.form-control{
+    padding-left: 15px;
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    height: 2rem;
+    line-height: 2;
+    
+
+}
+.btn{
+    --bs-btn-padding-x: -0.25rem;
+    display: inline-block;
+    width: 50px;
+    padding: 0;
+    font-size: smaller;
+    font-weight: 200;
+    height: 2rem;
+    line-height: 2;
 }
 /* Hamburger menu */
 .hamburger {
