@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: aliceblue;
+    border: 1px solid firebrick;
+}
+.ComName{
+    font-size: 10px;
+}
+.nav{
+    display: inline-block;
+}
