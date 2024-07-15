@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+/* full body css apply */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DBE4EE;
+}
+
+/* <!-- navbar with services --> */
+.navbar {
+    font-family: "Roboto Slab", serif;
+    
+    
+    background-color: #DBE4EE;
+}
+.logo{
+    width: 100%;
+}
+
+#navbarSupportedContent {
+
+    justify-content: center;
+}
+
+.nav-item {
+    padding-left: 59px;
+}
+/* <!-- slider background  --> */
+
+#carouselExampleInterval{
+    border-radius: 17px;
+}
+.navbar-nav{
+    /* background: #81A4CD; */
+    padding-right: 58px;
+    border-radius: 10px;
+    font-size: 17px;
+    
+    
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+    
+}
+
+/* media query  */
+@media(max-width:2560px){
+    
+}
+@media(max-width:1920px){
+
+}
+@media(max-width:1440px){
+
+}
+@media(max-width:1024px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:576px){
+
+}
+@media(max-width:425px){
+
+}
+@media(max-width:375px){
+
+}
+@media(max-width:320px){
+
+}
+
+
+/* footer */
+.footer-logo{
+    padding-top: 39px;
+}
+.footer{
+    height: 21rem;
+    background-color: #DBE4EE;background-image: conic-gradient(black, #434343, #949494);
+    border-radius: 64px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 88px;
+    
+    width: 100%;
+
+}
+
+.footer-head{
+    color:#F5B700;
+    display: inline-block;
+    padding-left: 5rem;
+    margin-top: 2rem;
+    /* font-weight: bold; */
+}
+.footer-list{
+    padding-top: 17px;
+    color: #2F2D2E;
+}
+.google-map{
+    position: relative;
+    right: -190px;
+    top: 30px;
+}
+.aboutus{
+    position: relative;
+    left: 20px;
+}
+.contactus{
+    position: relative;
+    left: 44px;
+    
+}
+.contactus-list{
+    color: white;
+}
+.services-list{
+    color: white;
+}
+.aboutus-list{
+    color: white;
+}
+.icons{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    padding-left: 4rem;
+    font-size: 30px;
+}
+.socialmedia-icons{
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+}
