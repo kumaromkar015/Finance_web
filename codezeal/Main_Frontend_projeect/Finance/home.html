@@ -3,27 +3,57 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
     <link rel="stylesheet" href="home.css">
     <title>MaaDurgaTravels Finance</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    
+    <!-- <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'> -->
+
 </head>
 
 <body>
-    <!-- navbar with services -->
+    <!-- navbar with services START-->
+    <section>
+        <img src="../Untitled-2 (1).png" class="logo col-md-1 row" alt="logo">
+
+    </section>
     <nav class="navbar navbar-expand-lg ">
-        <img src="../Untitled-2 (1).png"  class="logo col-md-1 row" alt="logo">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">AboutUs</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        AboutUs
+                    </a>
+                    <div class="dropdown-menu AboutUs-menu">
+                        <p><a href="#"> Overview </a></p>
+                        <ul>
+                        <a class="dropdown-item" href="#"><li>Introduction</li></a>
+                        <a class="dropdown-item" href="#"><li>Vision</li></a>
+                        <a class="dropdown-item" href="#"><li>Mission</li></a>
+
+                        </ul>
+                        <p><a href="#"> Our Journey </a></p>
+                        <p><a href="#"> Members and Board Rooms </a></p>
+                        <ul>
+                        <a class="dropdown-item" href="#"><li>Founder</li></a>
+                        <a class="dropdown-item" href="#"><li>Managing Director</li></a>
+                        <a class="dropdown-item" href="#"><li>Co-Founder</li></a>
+                        <a class="dropdown-item" href="#"><li>Board of member</li></a>
+                        <a class="dropdown-item" href="#"><li>Board of director</li></a>
+                        <a class="dropdown-item" href="#"><li>Branch Manager</li></a>
+
+                        </ul>
+                        
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -36,31 +66,36 @@
                         <a class="dropdown-item" href="#">Transport</a>
                     </div>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="#">ContactUs</a>
                 </li>
 
             </ul>
-
+            <!-- search and profile icon START-->
+        </div>
+        <div class="profile-icons ">
+            <div class="fas fa-user-circle "></div>
+            <i class="fa fa-search"></i>
         </div>
     </nav>
-    
+    <!-- search and profile icon END-->
 
-    <!-- slider background  -->
+    <!-- slider background  START-->
 
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="10000">
-                <img src="./banner1.2.png" class="d-block w-100" alt="...">
+                <img src="./banner1.3.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-interval="2000">
-                <img src="./banner-2.png" class="d-block w-100" alt="...">
+                <img src="./banner2.2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./banner-3.png" class="d-block w-100" alt="...">
+                <img src="./banner3.2.png" class="d-block w-100" alt="...">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval"  data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </button>
@@ -69,56 +104,188 @@
             <span class="sr-only">Next</span>
         </button>
     </div>
-    <!-- body content -->
-     <div style="height: 200px;"></div>
 
-<!-- footer  -->
-<footer class="footer">
-    <div class="container text-light">
-        <div class="footer-logo">
-            <img src="../Untitled-2 (1).png" height="150px" width="100%" >
-        </div>
-        <div class="socialmedia-icons">
-            <a href="#" style="color: white;"><i class="fa-brands fa-facebook icons"></i></a>
-            <a href="#" style="color: white;"><i class="fa-brands fa-instagram icons"></i></a>
-            <a href="#" style="color: white;"><i class="fa-brands fa-whatsapp icons"></i></a>
-            <a href="#" style="color: white;"><i class="fa-brands fa-linkedin icons"></i></a>
-            <a href="#" style="color: white;"><i class="fa-regular fa-envelope icons"></i></a>
-        </div>
-        <div class="footer-head">
-            <h3>Services</h3>
-            <ul>
-               <a href="#"> <li class="footer-list services-list">Finance</li></a>
-               <a href="#"> <li class="footer-list services-list">Currency Exchange</li></a>
-               <a href="#"> <li class="footer-list services-list">Transport</li></a>
-            </ul>
-        </div>
-        <div class="footer-head">
-            <h3>AboutUs</h3>
-            <ul>
-                <a href="#"><li class="footer-list aboutus-list">About Company</li></a>
-               <a href="#"> <li class="footer-list aboutus-list">Gallery</li></a>
-                <a href="#"><li class="footer-list aboutus-list">Testimonial</li></a>
-            </ul>
-        </div>
-        <div class="footer-head contactus ">
-            <h3>ContactUs</h3>
-            <ul>
-                <a href="/WEB DEV/projectgit/codezeal/pratice_project/aboutUs.html"><li class="footer-list contactus-list">Location</li></a>
-                <a href="#"><li class="footer-list contactus-list">Whatsapp Chat</li></a>
-                <a href="#"><li class="footer-list contactus-list">Instagram</li></a>
-                <a href="#"><li class="footer-list contactus-list">Facebook</li></a>
-                <a href="#"><li class="footer-list contactus-list">LinkdIn</li></a>
-            </ul>
-        </div>
 
-        <div class="google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14646.93541211916!2d85.3859509!3d23.39784359999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e384bcc6fa4b%3A0x794c4e3830a9d9be!2sThe%20Royal%20Retreat!5e0!3m2!1sen!2sin!4v1721063654041!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-       
     </div>
-</footer>
+    <!-- slider background END -->
 
+
+    <!-- Company members content  START-->
+
+    <div class="testimonial-heading">
+        <h2>Company Members</h2>
+    </div>
+
+    <div class="row card-1">
+        <!-- company members row-1  -->
+        <div class="card card-body col-2">
+            <img src="./1615263018762.jpg" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Sourav kumar singh</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+
+        <div class="card card-body col-2">
+            <img src="./PIC.png" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Omkar kumar sandilay</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+        <div class="card card-body col-2">
+            <img src="./sourav pic.png" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Aman Tiwari</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+        <div class="card card-body col-2">
+            <img src="./Untitled design (1).png" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Hari Om prakash</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+        <div class="card card-body col-2">
+            <img src="./Untitled design (1).png" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Hari Om prakash</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+
+    </div>
+
+    <!-- company members row-2  -->
+    <div class="row card-1">
+        <div class="card card-body col-2">
+            <img src="./1615263018762.jpg" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Sourav kumar singh</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+
+        <div class="card card-body col-2">
+            <img src="./PIC.png" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Omkar kumar sandilay</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+        <div class="card card-body col-2">
+            <img src="./sourav pic.png" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Aman Tiwari</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+        <div class="card card-body col-2">
+            <img src="./Untitled design (1).png" class="card-img-top" alt="...">
+
+            <h5 class="card-title">Hari Om prakash</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+
+
+        </div>
+
+    </div>
+    <!-- </section> -->
+    <!-- Company members content END-->
+
+    <!-- footer START -->
+    <footer class="footer ">
+        <div class="container text-light">
+            <div class="footer-logo">
+                <img src="../Untitled-2 (1).png" height="150px" width="100%">
+            </div>
+            <div class="socialmedia-icons">
+                <a href="#" style="color: white;"><i class="fa-brands fa-facebook icons"></i></a>
+                <a href="#" style="color: white;"><i class="fa-brands fa-instagram icons"></i></a>
+                <a href="#" style="color: white;"><i class="fa-brands fa-whatsapp icons"></i></a>
+                <a href="#" style="color: white;"><i class="fa-brands fa-linkedin icons"></i></a>
+                <a href="#" style="color: white;"><i class="fa-regular fa-envelope icons"></i></a>
+            </div>
+            <div class="footer-head">
+                <h3>Services</h3>
+                <ul>
+                    <a href="#">
+                        <li class="footer-list services-list">Finance</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list services-list">Currency Exchange</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list services-list">Transport</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-head">
+                <h3>AboutUs</h3>
+                <ul>
+                    <a href="">
+                        <li class="footer-list aboutus-list">About Company</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list aboutus-list">Gallery</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list aboutus-list">Testimonial</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list aboutus-list">Feedback</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-head contactus ">
+                <h3>FollowUs</h3>
+                <ul>
+                    <a href="/WEB DEV/projectgit/codezeal/pratice_project/aboutUs.html">
+                        <li class="footer-list contactus-list">Location</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list contactus-list">Whatsapp Chat</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list contactus-list">Instagram</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list contactus-list">Facebook</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer-list contactus-list">LinkdIn</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58591.25869961311!2d85.3523437512568!3d23.389893302710508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e39ed3ec78d3%3A0x1f7293eaf12fb386!2sKhelgaon%2C%20Ranchi%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1721110706361!5m2!1sen!2sin"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <div class="credit">Created by | <span> Mr. OMKAR KR. SANDILAY</span>| All right reserved!</div>
+    <!-- footer END  -->
 
     <!-- links of javascript -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
