@@ -555,7 +555,7 @@ button:hover {
 /* responsive hide and seek end */
 
 /* media query footer start */
-@media only screen and (max-width:375px) {
+/* @media only screen and (max-width:375px) {
     .footer-small-screen{
         display: flex;
     }
@@ -653,7 +653,7 @@ button:hover {
         bottom: -60px;
         left: -193px;
     }
-}
+} */
 @media only screen and (min-width:375px) and (max-width:475px){}
 @media only screen and (min-width:375px) and (max-width:475px){}
 @media only screen and (min-width:375px) and (max-width:475px){}
