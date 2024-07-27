@@ -1,0 +1,195 @@
+/* head image */
+.headimage {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 500px;
+    width: 100%;
+}
+
+.card-body1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-title1 {
+    padding-left: 50px;
+}
+
+.card-text1 {
+    padding-left: 10px;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+
+/* head image close */
+/* logo */
+.top {
+    height: 100px;
+    padding-left: 50px;
+    padding-bottom: 3px;
+    position: absolute;
+    z-index: 100;
+    top: 8px;
+}
+
+/*  logo */
+
+/* company members */
+.font{
+
+    display: flex;
+    justify-content: center;
+}
+.font i {
+    font-size: 1.75rem;
+}
+
+.card-group {
+    padding-top: 3px;
+    display: flex;
+    gap: 33px;
+    box-sizing: border-box;
+    margin: 12px;
+}
+
+.members-img {
+    height: 300px;
+    width: 300px;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    height: auto;
+    box-sizing: border-box;
+    margin: 12px;
+}
+
+
+/* company member close */
+
+
+/* footer start */
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 20px;
+
+}
+
+.footer-section {
+    width: 30%;
+
+}
+
+.follow-us_list {
+    color: aqua;
+}
+
+.logo-image {
+    height: 113px;
+    padding-right: 55px;
+    position: relative;
+    top: 82px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    padding-right: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #222;
+    color: #bbb;
+    padding: 10px 0;
+
+}
+
+.footer-bottom p {
+    margin: -12px;
+    padding-bottom: 5px;
+    padding-left: 37px;
+}
+
+.footer {
+    padding-right: 100px;
+    margin: 100px;
+}
+
+.footer-1 {
+    width: 100%;
+}
+
+.container-fluid {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.google-map p {
+    position: absolute;
+    right: -12px;
+    top: 57px;
+}
+
+.container-fluid {
+    background-color: #3D4F4C;
+}
+
+
+/* navbar start */
+
+.navbar {
+    background-color: #3D4F4C;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size: medium;
+
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.profile-icon {
+    height: 5px;
+    font-size: 34px;
+    position: absolute;
+    right: 166px;
+    bottom: 44px;
+    color: rgb(252, 252, 250);
+}
+

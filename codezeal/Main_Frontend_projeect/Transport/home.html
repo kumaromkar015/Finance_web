@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <div class="nav-container">
+    <div class="row"></div>
+    <div class="col-md-12">
+
+      <ul class="nav navbar justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            services</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Transportation</a>
+            <a class="dropdown-item" href="#">Finance</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Services Available 24*7.</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            registration/login
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Login form</a>
+            <a class="dropdown-item" href="#">Create account</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Thanks for chooseing us.</a>
+          </div>
+        </li>
+        <div class="profile-icon">
+          <i class="fa-solid fa-user-doctor"></i>
+        </div>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+  <!-- end nav -->
+
+
+  <!--slider start-->
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="10000">
+        <img src="./banner-1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="./banner-2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./banner-3.png " class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+  <!---slider end---->
+
+
+  <!---reg form-->
+  <section class="frm">
+    <div class="form-container">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="bg-form" action="submit_registration.php" method="post">
+
+            <h2>Service Request</h2>
+
+            <label class="form-labe" for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your First name" required>
+
+            <label class="form-label" for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="Last Name" placeholder="Enter your Last name" required>
+
+            <label class="phone" for="phone number">Phone Number</label>
+            <input type="number" id="phonenumber" name="Last Name" placeholder="Enter Valid Phn no." required>
+
+            <label class="city-label" for="fromcity">City from</label>
+            <input type="text" id="fromcity" name="fromcity" placeholder="picking city" required>
+
+            <label class="to-label" for="Tocity">City to</label>
+            <input type="text" id="tocity" name="tocity" placeholder="Droping city" required>
+
+            <label class="address-label" for="youraddress">Your Address</label>
+            <input type="text" id="youraddress" name="youraddress" placeholder="Enter your full address" required>
+
+            <label class="dropdwn-label" for="Tocity">Select Services</label>
+            <select class="small-select">
+              <option value="" disabled selected>Choose an Services</option>
+              <option value="option1">Packerks and movers</option>
+              <option value="option2">Hire Car</option>
+              <option value="option4">Hire Trucks</option>
+              <option value="option5">Hire mini loading vehicles</option>
+              <option value="option6"> CARGO </option>
+              <option value="option7">Home Shifting</option>
+              <option value="option8">logistics</option>
+              <option value="option9">Transpotation</option>
+            </select>
+            <br>
+            <button type="button" class="btn btn-success">Click here to Register</button>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--endform-->
+
+  <!-- we are wlcoming -->
+  <div class="media">
+    <img src="./MDT F LOGO.png" class="mr-3" alt="...">
+    <div class="media-body">
+      <h2 class="mt-0">Hey!We are welcoming you</h2>
+      <p>In the heart of a bustling city, where time is currency and efficiency is king, there exists a logistics
+        transport company that goes beyond the call of duty to deliver not just goods, but dreams.
+
+        Meet Velocity Logistics, a team of dedicated professionals whose commitment to excellence is matched only by
+        their passion for customer satisfaction.
+
+        With a calm reassurance that comes from years of experience, Velocity Logistics swung into action. They
+        carefully coordinated the pickup of Sarah's delicate ceramics, ensuring each piece was packed securely for the
+        long journey ahead. Communication was key, and Sarah was kept informed every step of the way, giving her peace
+        of mind during a stressful time.</p><br>
+      <br>
+      <p>this experience wasn't just about shipping pottery — it was about realizing her dreams and expanding her
+        business. Velocity Logistics didn't just deliver goods; they delivered on their commitment to excellence and
+        customer care, earning Sarah's trust and loyalty for years to come.
+
+        In the world of logistics, where reliability and trust are paramount, Velocity Logistics stands tall as a beacon
+        of integrity and efficiency. They don't just move shipments; they move stories of success and dreams fulfilled.
+      </p>
+    </div>
+  </div>
+  <!-- end -->
+
+  <!-- services OVERVIEW -->
+  <br>
+  <div class="sourav">
+    <h3>SERVICES OVERVIEW</h3>
+  </div>
+  <div class="card-group">
+    <div class="card">
+      <img src="./logistic.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">LOGISTICS</h5>
+        <p class="card-textfirst">Logistics is the backbone of our company's operations, ensuring the efficient and
+          timely
+          movement of goods from suppliers to customers.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 2.8 years ago</small>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="car" src="./car rent.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hire Car</h5>
+        <p class="card-text">We offer a diverse fleet of well-maintained vehicles, ranging from compact cars to luxury
+          models, ensuring the perfect match for every journey. </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 2 years ago</small>
+      </div>
+    </div>
+    <!-- end -->
+
+    <!-- card -->
+    <div class="card">
+      <img class="package" src="./package movers.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Package & Movers</h5>
+        <p class="card-text">we specialize in providing seamless and stress-free relocation services. Our comprehensive
+          solutions encompass packing, transporting, and unpacking your belongings with the utmost care and efficiency.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 10 months ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-group">
+    <div class="card">
+      <img class="fruit" src="./fruits veg.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fruits & Veg Transport</h5>
+        <p class="card-text">we specialize in the transportation of fresh fruits and vegetables, ensuring they reach
+          their destinations in peak condition.We are dedicated to timely deliveries and exceptional service.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 1.5 years ago</small>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="fruit" src="./home shift.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Home Shifting</h5>
+        <p class="card-text">We prioritize the safety and security of your belongings, ensuring they arrive at your new
+          home in perfect condition.Our commitment to efficiency and customer satisfaction.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 1 years ago</small>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="fruit" src="./tour.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tour & Travels</h5>
+        <p class="card-text">We dedicated to creating unforgettable travel experiences for our clients. We offer a wide
+          range of services including personalized tour packages, flight and hotel bookings,</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 8 months ago</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+  <!-- FEEDBACK -->
+
+  <section>
+    <div class="container-fluid"></div>
+    <div class="row feed-img">
+
+      <div class="col-md-3 feedback-main">
+
+        <h4>Provide Your Valuable FEEDBACK</h4>
+        <div class="rating">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+
+        <div class="comment-section">
+          <textarea id="comment" placeholder="      Write your comment here..."></textarea>
+          <button id="submit">Submit</button>
+        </div>
+        <div id="comments-container"></div>
+      </div>
+      <div class="col-md-9 ">
+        <img class="pad" src="./feedback1.jpg">
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- end -->
+
+
+  <!-- footer -->
+
+
+
+  <footer class="container-fluid">
+    <div class="footer-container ">
+      <div class="footer-section col-md-2 row">
+
+        <img src="./MDT F LOGO.png" class="logo-image" alt="dil">
+      </div>
+
+      <div class="footer-section col-md-2 row about">
+        <h4>About Us</h4>
+        <ul>
+
+          <li>Proprietor: AASHA SINGH</li>
+          <li>Managing Director: Mr. Sanoj singh</li>
+          <li>Board Member's : Mr.Dhiraj Singh</li>
+          <li>Mr.Ashwini Sandilya</li>
+          <li>Mr.Sidhant singh</li>
+          <li>Mr.Rahul roy</li>
+          <li>Mr.Vickey pawaar</li>
+
+        </ul>
+      </div>
+
+      <div class="footer-section col-md-2 row contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: Maadurgatravels.com</li>
+          <li>Phone: 9955235369</li>
+          <li>Phone: 7061598448</li>
+        </ul>
+      </div>
+      <div class="footer-section col-md-2 row follow">
+        <h4>
+          Follow Our Social site
+        </h4>
+        <ul>
+          <a href="">
+            <li class="follow-us_list">Facebook</li>
+          </a>
+          <a href="">
+            <li class="follow-us_list">watsup</li>
+          </a>
+          <a href="">
+            <li class="follow-us_list">twitter</li>
+          </a>
+          <a href="">
+            <li class="follow-us_list">LinkDin</li>
+          </a>
+          <a href="">
+            <li class="follow-us_list">InstaGram</li>
+          </a>
+        </ul>
+      </div> 
+
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.532376180394!2d85.39360117515258!3d23.405128378907488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e3007f69821d%3A0xc623895b7660b13!2sMahavir%20Nagar!5e0!3m2!1sen!2sin!4v1721110783851!5m2!1sen!2sin"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="footer-small-screen">
+      <span><a href="">HOME</a></span>|
+      <span><a href="">ABOUT US</a></span>|
+      <span><a href="">SERVICES</a></span>|
+      <span><a href="">CONTACT US</a></span>|
+      <span><a href="">LOCATION</a></span>|
+      <img class="small-img" src="./MDT F LOGO.png">
+    </div>
+    
+  </footer>
+  <div class="footer-bottom">
+    <p>&copy; 2024 MAA DURGA TRAVELS. All rights reserved || Designed by Sourav Kumar(SBU)</p>
+  </div>
+  <!-- end -->
+
+  <!-- link for javascript  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+  <script src="home.js"></script>
+</body>
+
+</html>
