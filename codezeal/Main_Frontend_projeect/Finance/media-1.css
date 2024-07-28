@@ -1,6 +1,68 @@
+/* responsive correction START */
+
+.responsive-1-footer {
+    display: none;
+}
+
+.mdt-brand {
+    display: none;
+}
+
+/* responsive correction END */
 /* media query START  */
+@media only screen and (min-width:425px) and (max-width:576px) {
+
+    /* navbar section start  */
+    .mid-navbar span {
+        font-size: 12px;
+        position: absolute;
+        right: 345px;
+    }
+
+    .mid-navbar {
+        text-align: center;
+    }
+
+    /* navbar section end */
+    /* company member section start  */
+    .testimonial-heading h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .card-2nd{
+        padding-bottom: 10px;
+    }
+
+    .card-1 {
+        margin: 16px 62px;
+        gap: 9px;
+        flex-wrap: wrap;
+    }
+
+    .card-body {
+        max-width: 19rem;
+        max-height: 100%;
+    }
+
+    .card-img-top {
+        width: 306px;
+        max-width: 100%;
+    }
+
+    .card-2nd {
+        margin: 0px 8px;
+    }
+
+    .card-img-top {
+        width: 306px;
+    }
+
+    /* company member section end  */
+}
+
 @media only screen and (min-width:576px) and (max-width:768px) {
 
+    /* footer section start */
     .footer-logo img {
         display: none;
     }
@@ -54,7 +116,41 @@
         border-radius: 64px;
     }
 
+    /* footer section end  */
+
+    /* card section start  */
+    .card-1 {
+        margin: 16px 62px;
+        gap: 9px;
+        flex-wrap: wrap;
+    }
+
+    .card-body {
+        max-width: 14rem;
+        max-height: 100%;
+    }
+
+    .card-img-top {
+        width: 198px;
+    }
+
+    .card-2nd {
+        margin: 0px 8px;
+    }
+
+    .card-body {
+        max-width: 21rem;
+        max-height: 100%;
+    }
+
+    .card-img-top {
+        width: 306px;
+    }
+
+    /* card section end */
+
 }
+
 @media only screen and (min-width:768px) and (max-width:1024px) {
 
     /* footer section START */
@@ -121,6 +217,43 @@
     }
 
     /* footer section END */
+
+    /* card section start  */
+    .card-1 {
+        margin: 16px 39px;
+        gap: 9px;
+        flex-wrap: wrap;
+    }
+
+    .card-body {
+        max-width: 14rem;
+        max-height: 100%;
+    }
+
+    .card-img-top {
+        width: 198px;
+    }
+
+    .card-2nd {
+        margin: 0px 8px;
+    }
+
+    .medium-screen-remove {
+        display: none;
+    }
+
+    /* card section end */
+
+    /* mid nav-section start  */
+    .mid-navbar span {
+        position: relative;
+        bottom: 27px;
+        left: 29rem;
+        font-weight: bold;
+
+    }
+
+    /* mid nav-section end */
 }
 
 @media only screen and (min-width:1024px) and (max-width:1440px) {
@@ -181,6 +314,31 @@
         gap: 1rem;
     }
 
+    /* card section start  */
+    .card-1 {
+        margin: 16px 20px;
+        gap: 7px;
+    }
+
+    .card-image-1 {
+        width: 51rem;
+    }
+
+    .card-2nd {
+        margin: 10px 97px;
+    }
+
+
+    .card-image-6 {
+        max-width: 100%;
+    }
+
+    .card-image-6 img {
+        width: 26rem;
+        max-width: 100%;
+    }
+
+    /* card section end */
 
 }
 
@@ -206,8 +364,32 @@
         gap: 6rem;
     }
 
-
     /* footer section END */
+
+    /* card section start  */
+    .card-1 {
+        margin: 16px 72px;
+        gap: 15px;
+    }
+
+    .card-image-1 {
+        width: 51rem;
+    }
+
+    .card-2nd {
+        margin: 24px 184px;
+    }
+
+    .card-image-6 {
+        max-width: 100%;
+    }
+
+    .card-image-6 img {
+        width: 26rem;
+        max-width: 100%;
+    }
+
+    /* card section end */
 
 }
 
@@ -270,24 +452,39 @@
 
     /* footer section END */
 
+    /* company members content section start */
+    .card-1 {
+        margin: 16px 165px;
+        gap: 20px;
+    }
+
+    .card-image-1 {
+        width: 51rem;
+    }
+
+    .card-2nd {
+        margin: 24px 359px;
+    }
+
+    .card-image-6 {
+        max-width: 100%;
+    }
+
+    .card-image-6 img {
+        width: 26rem;
+        max-width: 100%;
+    }
+
+    /* company members content section end */
 }
 
 
 /* /* media query END */
 
-/* responsive correction START */
-.responsive-1-footer {
-    display: none;
-}
-
-.mdt-brand {
-    display: none;
-}
-
-/* responsive correction END */
-
 /* media query start with 100px difference  */
+
 /* footer section start */
+
 @media only screen and (max-width:375px) {
     .footer-main {
         display: none;
@@ -561,6 +758,8 @@
 }
 
 @media only screen and (min-width:775px) and (max-width:875px) {
+
+    /* footer section start  */
     iframe {
         position: relative;
         top: 5rem;
@@ -625,6 +824,8 @@
 }
 
 @media only screen and (min-width:875px) and (max-width:975px) {
+
+    /* footer section start  */
     iframe {
         position: relative;
         top: 5rem;
@@ -689,6 +890,8 @@
 }
 
 @media only screen and (min-width:975px) and (max-width:1075px) {
+
+    /* footer section start  */
     iframe {
         position: relative;
         top: 5rem;
@@ -753,6 +956,8 @@
 }
 
 @media only screen and (min-width:1075px) and (max-width:1175px) {
+
+    /* footer section start  */
     .footer-main {
         position: relative;
         left: 2rem;
@@ -774,6 +979,8 @@
 }
 
 @media only screen and (min-width:1175px) and (max-width:1275px) {
+
+    /* footer section start  */
     .footer-main {
         position: relative;
         left: 6rem;
@@ -788,6 +995,8 @@
 
 
 @media only screen and (min-width:1275px) and (max-width:1375px) {
+
+    /* footer section start  */
     .footer-main {
         position: relative;
         left: 5rem;
@@ -799,9 +1008,17 @@
         gap: 4rem;
     }
 
+    /* card section  start  */
+    .card-2nd {
+        margin: 10px 134px;
+    }
+
+    /* card section  end */
 }
 
 @media only screen and (min-width:1375px) and (max-width:1475px) {
+
+    /* footer section start  */
     .footer-main {
         position: relative;
         left: 7rem;
@@ -825,9 +1042,18 @@
         top: 25px;
         border-radius: 18px;
     }
+
+    /* card section start  */
+    .card-2nd {
+        margin: 10px 134px;
+    }
+
+    /* card section end */
 }
 
 @media only screen and (min-width:1475px) and (max-width:1575px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -845,6 +1071,8 @@
 }
 
 @media only screen and (min-width:1575px) and (max-width:1675px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -862,6 +1090,8 @@
 }
 
 @media only screen and (min-width:1675px) and (max-width:1775px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -884,9 +1114,23 @@
         top: 25px;
         border-radius: 18px;
     }
+
+    /* card section start  */
+    .card-1st {
+        margin: 25px 122px;
+        gap: 15px;
+    }
+
+    .card-2nd {
+        margin: 24px 248px;
+    }
+
+    /* card section end */
 }
 
 @media only screen and (min-width:1775px) and (max-width:1875px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -913,6 +1157,8 @@
 }
 
 @media only screen and (min-width:1875px) and (max-width:1975px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -940,6 +1186,8 @@
 }
 
 @media only screen and (min-width:1975px) and (max-width:2075px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -966,6 +1214,8 @@
 }
 
 @media only screen and (min-width:2075px) and (max-width:2175px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -993,6 +1243,8 @@
 
 
 @media only screen and (min-width:2175px) and (max-width:2275px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -1019,6 +1271,8 @@
 }
 
 @media only screen and (min-width:2275px) and (max-width:2375px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -1045,6 +1299,8 @@
 }
 
 @media only screen and (min-width:2375px) and (max-width:2475px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -1071,6 +1327,8 @@
 }
 
 @media only screen and (min-width:2475px) and (max-width:2575px) {
+
+    /* footer section start  */
     .footer-service {
         padding-left: 0;
     }
@@ -1101,4 +1359,5 @@
         font-size: 22px;
     }
 }
-    /* media query end with 100px difference  END */
+
+/* media query end with 100px difference  END */
