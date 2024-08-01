@@ -7,7 +7,7 @@
 
 @media only screen and (min-width:969px) and (max-width:975px) {
     .card-1 {
-        margin: 14px 25px;
+        margin: 16px 25px;
         gap: 9px;
         flex-wrap: wrap;
     }
@@ -16,7 +16,7 @@
 
 @media only screen and (min-width:975px) and (max-width:1023px) {
     .card-1 {
-        margin: 14px 52px;
+        margin: 16px 52px;
         gap: 9px;
         flex-wrap: wrap;
     }
@@ -24,6 +24,7 @@
 }
 
 @media only screen and (max-width:1024px) {
+    /* navbar section start  */
     .navbar {
         display: none;
     }
@@ -48,11 +49,39 @@
         right: 2rem;
         font-size: 2rem;
     }
+    /* navbar section end  */
 }
 @media only screen and (min-width:1024px){
+    /* navbar section start  */
     .mid-navbar{
         display: none;
     }
+    /* navbar section end  */
+}
+@media only screen and (min-width:2560px){
+    /* card section start  */
+    .card-1 {
+        margin: 16px 165px;
+        gap: 20px;
+    }
+
+    .card-image-1 {
+        width: 51rem;
+    }
+
+    .card-2nd {
+        margin: 24px 359px;
+    }
+
+    .card-image-6 {
+        max-width: 100%;
+    }
+
+    .card-image-6 img {
+        width: 26rem;
+        max-width: 100%;
+    }
+    /* card section end  */
 }
 
 /* max media query end */
