@@ -26,10 +26,6 @@
     /* navbar section end */
 
     /* company member section start  */
-    .testimonial-heading h2 {
-        font-size: 18px;
-        font-weight: bold;
-    }
 
     .card-2nd {
         padding-bottom: 10px;
@@ -63,6 +59,28 @@
     }
 
     /* footer section end */
+    /* about MDT section START   */
+    .aboutus-lists {
+        margin: 20px 0px;
+    }
+
+    .aboutus-heading {
+        font-size: 20px;
+    }
+
+    /* about MDT section end  */
+    /* service section start  */
+    .service-lists {
+        border-right: none;
+        margin: 15px 0px;
+        border-bottom: 2px solid red;
+    }
+
+    .border-bottom-remover-2 {
+        border-bottom: none;
+    }
+
+    /* service section end */
 }
 
 @media only screen and (min-width:375px) and (max-width:425px) {
@@ -81,10 +99,7 @@
     /* navbar section end */
 
     /* company member section start  */
-    .testimonial-heading h2 {
-        font-size: 18px;
-        font-weight: bold;
-    }
+
 
     .card-2nd {
         padding-bottom: 10px;
@@ -122,6 +137,28 @@
     }
 
     /* footer section end */
+    /* about MDT section START   */
+    .aboutus-lists {
+        margin: 20px 0px;
+    }
+
+    .aboutus-heading {
+        font-size: 21px;
+    }
+
+    /* about MDT section end  */
+    /* service section start  */
+    .service-lists {
+        border-right: none;
+        margin: 15px 0px;
+        border-bottom: 2px solid red;
+    }
+
+    .border-bottom-remover-2 {
+        border-bottom: none;
+    }
+
+    /* service section end */
 
 }
 
@@ -140,10 +177,6 @@
 
     /* navbar section end */
     /* company member section start  */
-    .testimonial-heading h2 {
-        font-size: 18px;
-        font-weight: bold;
-    }
 
     .card-2nd {
         padding-bottom: 10px;
@@ -170,6 +203,25 @@
     }
 
     /* company member section end  */
+    /* about MDT section START   */
+    .aboutus-lists {
+        margin: 20px 0px;
+    }
+
+    /* about MDT section end  */
+
+    /* services section start  */
+    .service-lists {
+        border-right: none;
+        margin: 15px 0px;
+        border-bottom: 2px solid red;
+    }
+
+    .border-bottom-remover-2 {
+        border-bottom: none;
+    }
+
+    /* services section end */
 }
 
 @media only screen and (min-width:576px) and (max-width:768px) {
@@ -258,7 +310,27 @@
     }
 
     /* card section end */
+    /* about MDT section START  */
+    .aboutus-lists {
+        margin: 20px 0px;
+    }
 
+    /* about MDT section END  */
+    /* service section start  */
+    .service-lists {
+        margin: 12px 0px;
+        border-bottom: 1px solid red;
+    }
+
+    .border-right-remover-1 {
+        border-right: none;
+    }
+
+    .border-bottom-remover-1 {
+        border-bottom: none;
+    }
+
+    /* service section end */
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px) {

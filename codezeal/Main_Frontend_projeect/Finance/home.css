@@ -1,9 +1,13 @@
+/* import section start  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* import section start  */
 /* full body css apply */
 * {
     margin: 0;
@@ -105,28 +109,159 @@ body {
 
 /* <!-- slider background END --> */
 /* <!-- about section START --> */
-.about-mdt {
+.aboutus-heading {
     text-align: center;
-    height: auto;
+    margin-top: 1rem;
 }
 
-.about-mdt>div h3 {
-    text-transform: uppercase;
-    font-family: "Roboto Slab", serif;
+.about-head-1 {
+    text-decoration: underline;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+.about-head-2 {
+    font-family: "Kalnia Glaze", serif;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.aboutus h2 u {
+    color: #ff2b2b;
+}
+
+.aboutus-items {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+}
+
+.aboutus-lists i {
+    font-size: 5rem;
+}
+
+.aboutus-lists h2 {
+    font-size: 26px;
+    font-family: "Dancing Script", cursive;
+    margin: 11px 0px;
+}
+
+.aboutus-lists button {
+    padding: 2px 5px;
+    font-size: small;
+    border-color: red;
+    background-color: red;
+}
+
+.aboutus-lists button:hover {
+    background-color: pink;
+}
+
+.aboutus-lists button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.icon-1 {
+    color: #bc70f3;
+}
+
+.icon-2 {
+    color: blue;
+}
+
+.icon-3 {
+    color: #4c87f3;
 }
 
 /* <!-- about section END --> */
 
-/* <!-- company members section START--> */
-.testimonial-heading h2 {
-    display: grid;
-    justify-content: center;
-    padding: 0;
-    margin-top: 1rem;
+/* services section start  */
+.loan-lists{
+    font-size: 1rem;
+}
+
+.service-heading {
+    text-align: center;
     font-family: "Roboto Slab", serif;
-    text-transform: uppercase;
+}
+
+.service-heading-1 {
     text-decoration: underline;
+
+}
+
+.service-heading-2 {
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+
+.service-item-1 {
+    text-align: center;
+    margin: 22px 0px;
+}
+
+.service-item-2 {
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.service-lists i {
+    font-size: 3rem;
+}
+.service-lists a {
+    text-decoration: none;
+}
+.service-lists p {
+    margin: 0;
+}
+
+.service-lists {
+    border-right: 3px solid rgb(231 102 102);
+}
+.service-lists p a{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.border-remover {
+    border: none;
+}
+
+.services-section {
+    background-image: linear-gradient(to right, #efefef, #edff9d);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    max-width: 1236px;
+    border-radius: 6px;
+}
+.service-underline{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 60, 6);
+    text-decoration-thickness: 1px;
+}
+
+/* services section end */
+
+/* <!-- company members section START--> */
+.com-mem-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+}
+
+.mem-heading-1 {
+    text-decoration: underline;
+}
+
+.mem-heading-2 {
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 .card-1 {
@@ -254,4 +389,5 @@ body {
     font-weight: bold;
 
 }
+
 /* credit section END*/

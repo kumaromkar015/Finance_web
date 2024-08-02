@@ -83,5 +83,13 @@
     }
     /* card section end  */
 }
+@media only screen and (max-width:768px){
+    .aboutus-heading{
+        font-size: 22px;
+    }
+    .com-mem-heading{
+        font-size: 22px;
+    }
+}
 
 /* max media query end */
