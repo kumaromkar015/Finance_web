@@ -81,6 +81,12 @@
     }
 
     /* service section end */
+    /* request section start  */
+    #text-area-feed{
+        width: 297px;
+    }
+    
+    /* request section end */
 }
 
 @media only screen and (min-width:375px) and (max-width:425px) {

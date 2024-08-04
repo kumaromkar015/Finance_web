@@ -152,10 +152,7 @@ body {
     font-size: small;
     border-color: red;
     background-color: red;
-}
-
-.aboutus-lists button:hover {
-    background-color: pink;
+    box-shadow: 1px 3px 5px;
 }
 
 .aboutus-lists button a {
@@ -180,7 +177,7 @@ body {
 /* <!-- about section END --> */
 
 /* services section start  */
-.loan-lists{
+.loan-lists {
     font-size: 1rem;
 }
 
@@ -213,17 +210,20 @@ body {
 .service-lists i {
     font-size: 3rem;
 }
+
 .service-lists a {
     text-decoration: none;
 }
+
 .service-lists p {
     margin: 0;
 }
 
 .service-lists {
-    border-right: 3px solid rgb(231 102 102);
+    border-right: 2px solid rgb(231 102 102);
 }
-.service-lists p a{
+
+.service-lists p a {
     font-size: 1rem;
     text-decoration: none;
 }
@@ -237,10 +237,11 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     margin-bottom: 12px;
-    max-width: 95%px;
+    max-width: 95%;
     border-radius: 6px;
 }
-.service-underline{
+
+.service-underline {
     text-decoration: underline;
     text-decoration-color: rgb(255, 60, 6);
     text-decoration-thickness: 1px;
@@ -290,7 +291,73 @@ body {
 
 /* <!-- company members section end--> */
 
+/* request section start  */
+.request-from h3 {
+    text-align: center;
+}
 
+.request-from h6 {
+    text-align: center;
+}
+
+.Request-form-item {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Request-form-item form textarea {
+    max-height: 200px;
+    height: 204px;
+    min-height: 150px;
+    margin: 3px 0px;
+    border: 1px solid #E1BC29;
+    width: 381px;
+}
+
+.Request-form-item form input {
+    border: 1px solid #E1BC29;
+    padding-left: 6px;
+}
+
+.Request-form-item form button {
+    padding: 3px 9px;
+    font-weight: bold;
+    background-color: #E1BC29;
+    font-size: 12px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 5px;
+}
+
+.request-from {
+    margin: 25px 0px;
+    background-image: url(./request-form-1.1.png);
+    background-size: 100% 100%;
+    padding: 19px 0px;
+}
+
+/* request section end */
+/* rotating screen start  */
+.rotate-button {
+    float: right;
+    position: fixed;
+    right: -39px;
+    transform: rotate(90deg);
+    top: 319px;
+    padding: 2px 5px;
+    font-size: small;
+    border-color: red;
+    background-color: red;
+    z-index: 1;
+    box-shadow: 1px 3px 5px;
+}
+.rotate-button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+/* rotating screen end */
 /* footer START*/
 .footer-logo {
     position: relative;
