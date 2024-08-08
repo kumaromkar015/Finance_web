@@ -25,33 +25,7 @@
 
     /* navbar section end */
 
-    /* company member section start  */
-
-    .card-2nd {
-        padding-bottom: 10px;
-    }
-
-    .card-1 {
-        margin: 16px 15px;
-        gap: 9px;
-        flex-wrap: wrap;
-    }
-
-    .card-body {
-        max-width: 15rem;
-        max-height: 100%;
-    }
-
-    .card-img-top {
-        width: 306px;
-        max-width: 100%;
-    }
-
-    .card-2nd {
-        margin: 0px 8px;
-    }
-
-    /* company member section end  */
+    
 
     /* footer section start  */
     .responsive-1-footer {
@@ -82,10 +56,10 @@
 
     /* service section end */
     /* request section start  */
-    #text-area-feed{
+    #text-area-feed {
         width: 297px;
     }
-    
+
     /* request section end */
 }
 
@@ -104,38 +78,7 @@
 
     /* navbar section end */
 
-    /* company member section start  */
 
-
-    .card-2nd {
-        padding-bottom: 10px;
-    }
-
-    .card-1 {
-        margin: 16px 62px;
-        gap: 9px;
-        flex-wrap: wrap;
-    }
-
-    .card-body {
-        max-width: 16rem;
-        max-height: 100%;
-    }
-
-    .card-img-top {
-        width: 306px;
-        max-width: 100%;
-    }
-
-    .card-2nd {
-        margin: 0px 8px;
-    }
-
-    .card-img-top {
-        width: 306px;
-    }
-
-    /* company member section end  */
 
     /* footer section start  */
     .responsive-1-footer {
@@ -182,33 +125,7 @@
     }
 
     /* navbar section end */
-    /* company member section start  */
-
-    .card-2nd {
-        padding-bottom: 10px;
-    }
-
-    .card-1 {
-        margin: 16px 10px;
-        gap: 9px;
-        flex-wrap: wrap;
-    }
-
-    .card-body {
-        max-width: 21rem;
-        max-height: 100%;
-    }
-
-    .card-img-top {
-        width: 312px;
-        max-width: 100%;
-    }
-
-    .card-2nd {
-        margin: 0px 8px;
-    }
-
-    /* company member section end  */
+    
     /* about MDT section START   */
     .aboutus-lists {
         margin: 20px 0px;
@@ -287,35 +204,11 @@
         height: 18rem;
         background-color: #DBE4EE;
         background-image: conic-gradient(black, #434343, #949494);
-        border-radius: 64px;
     }
 
     /* footer section end  */
 
-    /* card section start  */
-    .card-1 {
-        margin: 16px 4px;
-        gap: 9px;
-        flex-wrap: wrap;
-    }
-
-    .card-body {
-        max-width: 16rem;
-        max-height: 100%;
-    }
-
-    .card-img-top {
-        width: 306px;
-        max-width: 100%;
-    }
-
-
-    .card-2nd {
-        margin: 0px 8px;
-        margin-bottom: 11px;
-    }
-
-    /* card section end */
+    
     /* about MDT section START  */
     .aboutus-lists {
         margin: 20px 0px;
@@ -406,33 +299,7 @@
 
     /* footer section END */
 
-    /* card section start  */
-    .card-1 {
-        margin: 16px 39px;
-        gap: 9px;
-        flex-wrap: wrap;
-    }
-
-    .card-body {
-        max-width: 14rem;
-        max-height: 100%;
-    }
-
-    .card-img-top {
-        width: 198px;
-    }
-
-    .card-2nd {
-        margin: 0px 8px;
-        margin-bottom: 11px;
-    }
-
-    .medium-screen-remove {
-        display: none;
-    }
-
-    /* card section end */
-
+    
     /* mid nav-section start  */
     .mid-navbar span {
         position: relative;

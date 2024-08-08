@@ -239,6 +239,7 @@ body {
     margin-bottom: 12px;
     max-width: 95%;
     border-radius: 6px;
+    margin-top: 12px;
 }
 
 .service-underline {
@@ -249,94 +250,162 @@ body {
 
 /* services section end */
 
-/* <!-- company members section START--> */
-.com-mem-heading {
+
+
+/* Happy to help you section start  */
+.hthu-section {
+    margin: 88px 0px;
+}
+
+.hthu-section h4 {
+    font-family: "Roboto Slab", serif;
     text-align: center;
+}
+
+.hthu-heading-1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.hthu-heading-2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+
+.hthu-items {
+    text-align: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 32px 0px;
+}
+
+.hthu-lists-1:hover {
+    box-shadow: 1px 7px 41px rgb(0, 0, 0);
+
+}
+
+.hthu-lists-2:hover {
+    box-shadow: 1px 7px 41px rgb(6, 5, 5);
+}
+
+.hthu-lists-1 {
+    position: relative;
+    animation-name: hthu-items;
+    animation-duration: 3s;
+
+}
+
+.hthu-lists-2 {
+    position: relative;
+    animation-name: hthu-items;
+    animation-duration: 3s;
+
+}
+
+@keyframes hthu-items {
+    from {
+        scale: 0.3;
+    }
+
+    to {
+        scale: 1;
+    }
+}
+
+
+.card-body .hthu-button-1 {
+    background-color: red;
+        font-size: 11px;
+}
+
+.card-body .hthu-button-2 {
+    background-color: red;
+    margin-top: 48px;
+        font-size: 11px;
+}
+
+/* Happy to help you section end */
+
+/* getstart section start  */
+.getstartnow-section {
+    background-color: #F5B700;
+    height: 114px;
+    margin: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.getstartnow-section h2 {
+    text-align: center;
+}
+
+.getstartnow-heading-1 {
+    text-decoration: underline;
     text-transform: uppercase;
     font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.mem-heading-1 {
+.getstartnow-heading-2 {
     text-decoration: underline;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.mem-heading-2 {
+.getstartnow-heading-3 {
     text-decoration: underline;
     text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 18px;
+
 }
 
-.card-1 {
-    height: 100%;
+.getstart-items {
+    text-align: center;
+}
+
+.getstart-items div {
     display: flex;
     justify-content: center;
-    gap: 4px;
+    gap: 52px;
+    margin-top: 12px;
 }
 
-.card-body {
-    margin: 0px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    padding: 12px;
-
+.getstart-items button {
+    padding: 3px 31px;
 }
 
-.card-1 div h5 {
-    font-weight: bold;
-    font-family: "Roboto Slab", serif;
+.getstart-items button:hover {
+    box-shadow: 2px 3px 0px 0px red;
 }
 
-.card-1 div p {
-    font-family: "Montserrat", sans-serif;
+.getstart-button-1 {
+    background-color: black;
 }
 
-/* <!-- company members section end--> */
-
-/* request section start  */
-.request-from h3 {
-    text-align: center;
+.getstart-button-1 a {
+    color: white;
+    text-decoration: none;
 }
 
-.request-from h6 {
-    text-align: center;
+.getstart-button-2 {
+    background-color: transparent;
 }
 
-.Request-form-item {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.getstart-button-2 a {
+    color: black;
+    text-decoration: none;
 }
 
-.Request-form-item form textarea {
-    max-height: 200px;
-    height: 204px;
-    min-height: 150px;
-    margin: 3px 0px;
-    border: 1px solid #E1BC29;
-    width: 381px;
-}
+/* getstart section end */
 
-.Request-form-item form input {
-    border: 1px solid #E1BC29;
-    padding-left: 6px;
-}
-
-.Request-form-item form button {
-    padding: 3px 9px;
-    font-weight: bold;
-    background-color: #E1BC29;
-    font-size: 12px;
-    border-radius: 7px;
-    box-shadow: 1px 3px 5px;
-}
-
-.request-from {
-    margin: 25px 0px;
-    background-image: url(./request-form-1.1.png);
-    background-size: 100% 100%;
-    padding: 19px 0px;
-}
-
-/* request section end */
 /* rotating screen start  */
 .rotate-button {
     float: right;
@@ -351,6 +420,7 @@ body {
     z-index: 1;
     box-shadow: 1px 3px 5px;
 }
+
 .rotate-button a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -369,7 +439,7 @@ body {
     height: 21rem;
     background-color: #DBE4EE;
     background-image: conic-gradient(black, #434343, #949494);
-    border-radius: 64px;
+
 
 
 }
